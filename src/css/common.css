@@ -16,3 +16,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* TIMER CSS */
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 84px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.value {
+  margin: auto;
+  font-size: 32px;
+  background-color: rgb(168, 168, 168);
+  padding: 10px;
+}
+
+.label {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 32px;
+}
